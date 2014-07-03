@@ -1,0 +1,13 @@
+<h1>List of phone number</h1>
+<table border>
+  
+  <% @numbers.each do |number| %>
+           
+    <tr height=200> 
+    <td> <strong><%=number.name %> </strong> </td>
+    <td> <%=number.phone_number%> </td>
+    </tr>
+  <% end %>
+<br>
+<a href ="/home/add">Add a new number</a>
+

@@ -1,5 +1,5 @@
 class Number < ActiveRecord::Base
   validates :name, :presence =>true
-  validates :phone_number, :length=>{is :11}
+  validates :phone_numbe, :presence =>true
 
 end
